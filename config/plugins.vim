@@ -55,6 +55,7 @@ Plug 'tc50cal/vim-taglist'
 
 " Search
 Plug 'mileszs/ack.vim'
+Plug 'justinmk/vim-sneak'
 
 " Information about changed lines in a file
 Plug 'airblade/vim-gitgutter'
