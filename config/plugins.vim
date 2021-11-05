@@ -26,6 +26,8 @@ Plug 'mtdl9/vim-log-highlighting'
 " Git
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
+Plug 'mhinz/vim-signify'
+Plug 'junegunn/gv.vim'
 
 " Language support
 Plug 'tpope/vim-projectionist'
