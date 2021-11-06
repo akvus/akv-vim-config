@@ -1,6 +1,8 @@
 # Cheat sheet for my vim set up
 
 ## Basic basics
+
+```
 <Ctrl+F>, <Ctrl+B> - page down and up
 <Ctrl+D>, <Ctrl+U> - half page up or down
 Visual mode: <d> - delete, <p> - paste, <y> -copy
@@ -26,7 +28,7 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 :%s/findString/replaceString/gc-> gc - to confirm each replacement
 
 :ter - opens terminal window
-
+```
 ## Indentation
 —visual
 < or > and repeat with <.>
