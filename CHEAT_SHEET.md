@@ -30,20 +30,27 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 :ter - opens terminal window
 ```
 ## Indentation
+
+```
 —visual
 < or > and repeat with <.>
 —insert
 ctrl+d ctrl+t
+```
 
 ## Sort options
 
+```
 :29,33sort - sort in range of lines 29-33
 :sort - sort all lines
 :sort! - sort in revers
 :%sort u - sort removing duplicates
 https://vim.fandom.com/wiki/Sort_lines 
+```
 
 ## Copy, paste, delete etc
+
+```
 <y><y> copy
 <c> cut
 <p> paste
@@ -58,12 +65,18 @@ https://vim.fandom.com/wiki/Sort_lines
 <das> - delete sentence
 <di}> - inside of {} brackets (:help text-objects)
 <dw> - ?
+```
 
 ## Splits
+
+```
 :vert res +10 -> vertical resize +10
 :res -10 -> horizontal resize -10
+```
 
 ## COC/language server
+
+```
 <.> - open action menu ?????? - NOT WORKING OR WHT WAS THAT?
 <gd> - definitions
 <gv> - type definitions
@@ -73,8 +86,11 @@ https://vim.fandom.com/wiki/Sort_lines
 <leader><ac> - open action menu <leader><rn> - rename variable, method, class etc.
 <gR> - rename
 <K> - show documentation pop up	
+```
 
 ## NERDTree
+
+```
 <C-f> - NERDTreeToggle
 <I> - open h split
 <s> - opne v split
@@ -86,8 +102,11 @@ https://vim.fandom.com/wiki/Sort_lines
 :NERDTredFind - reveals file at the tree
 <m> then <a> - create file/folder
 <m> then <m> - to rename/move
+```
 
 ## FZF :Files -> files with preview
+
+```
 :Ag
 :Rg -> find IN files
 :GFiles -> Git files (git ls-files)
@@ -103,8 +122,11 @@ https://vim.fandom.com/wiki/Sort_lines
 <C-T> - open in new tab
 <C-X> - open new h split
 <C-V> - open new v split
+```
 
 ## Flutter:
+
+```
 :FlutterRun <args>
 :FlutterHotReload
 :FlutterHotRestart
@@ -114,8 +136,11 @@ https://vim.fandom.com/wiki/Sort_lines
 :FlutterEmulators - executes flutter emulator process
 :FlutterEmulatorsLaunch - ?
 :FlutterVisualDebug - ?
+```
 
 ## GIT
+
+```
 :Git 
 - A/add
 - C/commit
@@ -131,4 +156,4 @@ https://vim.fandom.com/wiki/Sort_lines
 :GV! -> only commits affecting current file
   - o - to open a commit
  - l - to open a file in a commit
-,
+```
