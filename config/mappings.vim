@@ -1,10 +1,10 @@
-let mapleader=","
+let mapleader=" "
 
 " Type jj to exit insert mode quickly.
 inoremap jj <Esc>
  
 " Press the space bar to type the : character in command mode.
-nnoremap <space> :
+" nnoremap <space> :
 
 " Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>
