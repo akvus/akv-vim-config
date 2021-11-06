@@ -1,4 +1,4 @@
-let mapleader=" "
+let mapleader=","
 
 " Type jj to exit insert mode quickly.
 inoremap jj <Esc>
