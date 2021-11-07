@@ -1,34 +1,56 @@
 # Cheat sheet for my vim set up
 
-## Basic basics
+## Miscellaneous and basics
 
 ```
-<Ctrl+F>, <Ctrl+B> - page down and up
-<Ctrl+D>, <Ctrl+U> - half page up or down
-Visual mode: <d> - delete, <p> - paste, <y> -copy
-<J> - move one, <9j> - move 9
-<0> - moves cursor to first character
-<$> - end of line
+<u> - undo
+<C-r> - redo
+
+https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
+
+<leader><j> or <k> recent files navigation
+
+:ter - opens terminal window
+<:! command> - runs a command i.e.: `:! flutter test`
+```
+
+## Insertion
+
+```
+<I> - insert at beginning of line
+<i>- insert before character
+<A> - insert at end of line
+<a> - insert after character
+<o> - new line below cursor
+<O> - new line above cursor
+```
+
+## Search and replace
+
+```
+:%s/findString/replaceString/g -> g means replace all
+:%s/findString/replaceString/gc-> gc - to confirm each replacement
+```
+
+## Navigation in normal mode
+
+```
+<h><j><k><l> - move one character 
+<9j> - move 9 characters 
+<0> - move to beginning of a line 
+<$> - end to the end of a line
 <^> - moves to first non empty character
 <w><W><b><B> - one word forward/backward 
 <gg> - beg of file
 <G> - end of file
 <(><)><{><}><[[> and so on, move between sections
 <111G>, <111gg> -> jump to line 111
-Run cmd command in vim: `:! flutter test`
-<I> - insert at beginning of line, <i>- insert before character
-<A> - insert at end of line, <a> - insert after character
-<o> - new line below cursor, 
-<O> - new line after cursor
-<C-r> - redo
-https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
-<leader><j> or <k> recent files navigation
+<C-F>, <C-B> - page down and up
+<C-D>, <C-U> - half page up or down
 
-:%s/findString/replaceString/g -> g means replace all
-:%s/findString/replaceString/gc-> gc - to confirm each replacement
-
-:ter - opens terminal window
+<s> - and then 2 characters to use Seank finding and jumping 
 ```
+
 ## Indentation
 
 ```
@@ -59,7 +81,6 @@ https://vim.fandom.com/wiki/Sort_lines
 <ci(> remove inside ( and start insert
 <ca(> 
 <da(>
-<u> - undo
 <daw> - delete word under cursor
 <caw> - delete word and open insert mode
 <das> - delete sentence
