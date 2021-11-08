@@ -7,6 +7,8 @@ source $HOME/.config/nvim/modules/fzf.vim
 source $HOME/.config/nvim/modules/dart.vim
 source $HOME/.config/nvim/modules/sneak.vim
 source $HOME/.config/nvim/modules/misc.vim
+source $HOME/.config/nvim/modules/vim_rainbow.vim
+
 
 
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/snippets/dart.snippets']
