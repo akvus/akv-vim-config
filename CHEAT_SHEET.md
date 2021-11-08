@@ -146,6 +146,9 @@ https://vim.fandom.com/wiki/Sort_lines
 <C-T> - open in new tab
 <C-X> - open new h split
 <C-V> - open new v split
+
+<C-p> - :Files
+<leader>l - :Lines
 ```
 
 ## Flutter:
