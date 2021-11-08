@@ -30,6 +30,7 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 ```
 :%s/findString/replaceString/g -> g means replace all
 :%s/findString/replaceString/gc-> gc - to confirm each replacement
+:not - reset search highlighting
 ```
 
 ## Navigation in normal mode
@@ -86,6 +87,7 @@ https://vim.fandom.com/wiki/Sort_lines
 <das> - delete sentence
 <di}> - inside of {} brackets (:help text-objects)
 <dw> - ?
+<ya{> - copy from within {
 ```
 
 ## Splits
@@ -105,7 +107,7 @@ https://vim.fandom.com/wiki/Sort_lines
 <gr> - references
 <leader><aw> - wrap widget with… etc
 <leader><ac> - open action menu <leader><rn> - rename variable, method, class etc.
-<gR> - rename
+<leader><rn> -> rename symbol
 <K> - show documentation pop up	
 ```
 
@@ -129,7 +131,7 @@ https://vim.fandom.com/wiki/Sort_lines
 
 ```
 :Ag
-:Rg -> find IN files
+:Rg -> find IN files - DOES NOT SEEM TO WORK?
 :GFiles -> Git files (git ls-files)
 :Lines -> lines in loaded file search
 :Windows -> search in open splits
