@@ -29,6 +29,7 @@ set tabstop=2
 set softtabstop=0 noexpandtab
 set shiftwidth=2
 set clipboard
+set mouse=a
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " STATUS LINE ------------------------------------------------------------ {{{
