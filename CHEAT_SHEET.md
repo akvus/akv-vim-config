@@ -150,6 +150,13 @@ https://vim.fandom.com/wiki/Sort_lines
 ## Flutter:
 
 ```
+
+<leader><fa> - flutter run
+<leader><fq> - flutter quit
+<leader><fr> - hot reload
+<leader><fR> - hot restart
+<leader><fD> - flutter visual debug
+
 :FlutterRun <args>
 :FlutterHotReload
 :FlutterHotRestart
