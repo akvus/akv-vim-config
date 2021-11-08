@@ -12,6 +12,9 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 
 :ter - opens terminal window
 <:! command> - runs a command i.e.: `:! flutter test`
+
+:lopen - open split with errors and warnings
+:lnext, :lprev - to navigate between errors and warnings
 ```
 
 ## Insertion
