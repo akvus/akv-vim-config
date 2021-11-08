@@ -48,6 +48,7 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 <111G>, <111gg> -> jump to line 111
 <C-F>, <C-B> - page down and up
 <C-D>, <C-U> - half page up or down
+<C-Space> - move to next white space
 
 <s> - and then 2 characters to use Seank finding and jumping 
 ```
@@ -186,3 +187,7 @@ https://vim.fandom.com/wiki/Sort_lines
   - o - to open a commit
  - l - to open a file in a commit
 ```
+
+## Common issues
+
+`brew install ripgrep` - otherwise :Rg will nto work
