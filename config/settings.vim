@@ -1,7 +1,6 @@
 set number
 set noerrorbells
 set wrap
-set nocompatible
 filetype on
 filetype plugin on
 filetype indent on
@@ -10,14 +9,14 @@ set cursorline
 set cursorcolumn
 " spaces instead of tabs
 set expandtab
-"set nohlsearch
+set nohlsearch
 set smartcase
 set noswapfile
 set scrolloff=10
 set showcmd
 set showmatch
 set hlsearch
-set history=1000
+set history=500
 " auto completition on tab
 set wildmenu
 set wildmode=list:longest
