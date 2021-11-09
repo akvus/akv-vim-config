@@ -19,15 +19,18 @@ Plug 'leafgarland/typescript-vim'
 " Log coloring
 Plug 'mtdl9/vim-log-highlighting'
 
-" Kotlin/Java/Android
+" Kotlin/Java/Android TODO
 
-" Swift/C/IOS
+" Swift/C/IOS TODO
 
 " Git
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'mhinz/vim-signify'
 Plug 'junegunn/gv.vim'
+
+" Auto save
+Plug 'Pocco81/AutoSave.nvim'
 
 " Language support
 Plug 'tpope/vim-projectionist'
@@ -42,13 +45,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'preservim/nerdtree'
-" Fzf - navigation
-Plug 'junegunn/fzf.vim'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Ag
-Plug 'ggreer/the_silver_searcher'
-" Rg
-Plug 'BurntSushi/ripgrep'
 
 " Source code in file browser
 Plug 'tc50cal/vim-taglist'
@@ -56,6 +52,14 @@ Plug 'tc50cal/vim-taglist'
 " Search
 Plug 'mileszs/ack.vim'
 Plug 'justinmk/vim-sneak'
+
+" Fzf - navigation
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Ag
+Plug 'ggreer/the_silver_searcher'
+" Rg
+Plug 'BurntSushi/ripgrep'
 
 " Information about changed lines in a file
 Plug 'airblade/vim-gitgutter'
