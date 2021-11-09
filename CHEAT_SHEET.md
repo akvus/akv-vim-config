@@ -17,6 +17,8 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 :lnext, :lprev - to navigate between errors and warnings
 
 <z=> - find suggestions for spelling mistake
+<ddkP> - move line up
+<ddp> - move line down
 ```
 
 ## Insertion
