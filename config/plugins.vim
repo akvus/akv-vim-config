@@ -50,7 +50,6 @@ Plug 'preservim/nerdtree'
 Plug 'tc50cal/vim-taglist'
 
 " Search
-Plug 'mileszs/ack.vim'
 Plug 'justinmk/vim-sneak'
 
 " Fzf - navigation
