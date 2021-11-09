@@ -6,10 +6,9 @@ Plug 'thosakwe/vim-flutter'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 
-" Dart/Flutter snippets                                                  
+" Snippets
 Plug 'SirVer/Ultisnips'
 Plug 'natebosch/dartlang-snippets'
-" Snippets for various languages
 Plug 'honza/vim-snippets'
 
 " Typescript
@@ -42,12 +41,8 @@ Plug 'frazrepo/vim-rainbow'
 
 " Files navigation and visual tree
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'preservim/nerdtree'
-
-" Source code in file browser
-Plug 'tc50cal/vim-taglist'
 
 " Search
 Plug 'justinmk/vim-sneak'
