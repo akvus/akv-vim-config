@@ -33,6 +33,9 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 g:netrw_browsex_viewer=chrome
 
+" Spelling correction
+set spell spelllang=en_us
+"
 " STATUS LINE ------------------------------------------------------------ {{{
 
 " Clear status line when vimrc is reloaded.

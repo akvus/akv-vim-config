@@ -15,6 +15,8 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 
 :lopen - open split with errors and warnings
 :lnext, :lprev - to navigate between errors and warnings
+
+<z=> - find suggestions for spelling mistake
 ```
 
 ## Insertion
