@@ -32,6 +32,8 @@ set clipboard
 set mouse=a
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
+g:netrw_browsex_viewer=chrome
+
 " STATUS LINE ------------------------------------------------------------ {{{
 
 " Clear status line when vimrc is reloaded.
