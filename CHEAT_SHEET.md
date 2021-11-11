@@ -38,6 +38,7 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 :%s/findString/replaceString/g -> g means replace all
 :%s/findString/replaceString/gc-> gc - to confirm each replacement
 :not - reset search highlighting
+<S-#> - hightlights all instances of the word under cursor - next press moves to next find
 ```
 
 ## Navigation in normal mode
@@ -56,6 +57,7 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 <C-F>, <C-B> - page down and up
 <C-D>, <C-U> - half page up or down
 <C-Space> - move to next white space
+<C-n> - move between brackets
 
 <s> - and then 2 characters to use Seank finding and jumping 
 ```
@@ -130,7 +132,7 @@ https://vim.fandom.com/wiki/Sort_lines
 <o> - expand/collapse
 <K> - first child
 <J> - go to last child
-:NERDTredFind - reveals file at the tree
+<C-f> - :NERDTredFind - reveals file at the tree
 <m> then <a> - create file/folder
 <m> then <m> - to rename/move
 ```

@@ -15,3 +15,4 @@ nmap <silent> <c-l> :wincmd l<CR>
 " Ctrl + P to open file finder
 nmap <C-P> :Files<CR>
 nmap <Leader>l :Lines<CR>
+
