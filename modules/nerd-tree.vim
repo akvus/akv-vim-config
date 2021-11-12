@@ -13,8 +13,8 @@ let NERDTreeShowHidden=1
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
-nnoremap <leader>f :NERDTreeFind<CR>
-nmap <leader>f :NERDTreeFind<CR>
+silent! map <F3> :NERDTreeFind<CR>
 
+let g:NERDTreeMapActivateNode="<F3>"
+let g:NERDTreeMapPreview="<F4>"

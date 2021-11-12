@@ -124,7 +124,6 @@ https://vim.fandom.com/wiki/Sort_lines
 ## NERDTree
 
 ```
-<C-f> - NERDTreeToggle
 <I> - open h split
 <s> - opne v split
 <p> - go to parent
@@ -132,9 +131,13 @@ https://vim.fandom.com/wiki/Sort_lines
 <o> - expand/collapse
 <K> - first child
 <J> - go to last child
-<C-f> - :NERDTredFind - reveals file at the tree
 <m> then <a> - create file/folder
 <m> then <m> - to rename/move
+
+<leader><n> - focus on tree
+<C-n> - focus on tree
+<C-t>, <leader><t> - toggle tree
+<F3> - open tree and reveal file
 ```
 
 ## FZF :Files -> files with preview
@@ -178,6 +181,8 @@ https://vim.fandom.com/wiki/Sort_lines
 :FlutterEmulators - executes flutter emulator process
 :FlutterEmulatorsLaunch - ?
 :FlutterVisualDebug - ?
+
+Use `derry` dart package for defining commands
 ```
 
 ## GIT
