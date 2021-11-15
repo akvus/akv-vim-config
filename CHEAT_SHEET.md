@@ -19,6 +19,8 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 <z=> - find suggestions for spelling mistake
 <ddkP> - move line up
 <ddp> - move line down
+
+:h command - read help for a command
 ```
 
 ## Insertion
