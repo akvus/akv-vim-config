@@ -2,13 +2,16 @@ call plug#begin()
 
 " Dart/Flutter
 Plug 'dart-lang/dart-vim-plugin'
-" Plug 'thosakwe/vim-flutter'
-Plug 'akinsho/flutter-tools.nvim'
+Plug 'thosakwe/vim-flutter'
+" Plug 'akinsho/flutter-tools.nvim'
+" plenery.nvim is together with flutter-tools.nvim
+" Plug 'nvim-lua/plenary.nvim'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'akinsho/flutter-tools.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'vim-test/vim-test'
 
 " Snippets
 Plug 'SirVer/Ultisnips'

@@ -11,6 +11,5 @@ source $HOME/.config/nvim/modules/autosave.vim
 source $HOME/.config/nvim/modules/misc.vim
 source $HOME/.config/nvim/modules/vim-rainbow.vim
 
-
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/snippets/dart.snippets']
 
