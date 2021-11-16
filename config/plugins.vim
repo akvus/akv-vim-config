@@ -68,6 +68,9 @@ Plug 'mg979/vim-visual-multi'
 " Help with pairs of brackets etc
 Plug 'tpope/vim-surround'
 
+" Highlight color names with actual color
+Plug 'chrisbra/Colorizer'
+
 " Theme
 Plug 'morhetz/gruvbox'
 autocmd vimenter * ++nested colorscheme gruvbox

@@ -214,6 +214,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 Flutter commands: https://github.com/iamcco/coc-flutter#commands
 
+:ter flutter pub global run devtools
+
 Use `derry` dart package for defining commands
 ```
 
