@@ -1,41 +1,4 @@
-snippet jsbuilt "create JsonSerializable class"
-import 'package:json_annotation/json_annotation.dart';
-
-part '${1:`!v expand('%:t:r')`.g.dart}';
-
-@JsonSerializable()
-class ${1:CLASS_NAME} {
-
-factory $1.fromJson(Map<String, dynamic> json) =>
-	_$$1FromJson(json);
-
-Map<String, dynamic> toJson() => _$$1ToJson(this);
-}
-endsnippet
-
-snippet testFile "unit test file"
-import 'package:flutter_test/flutter_test.dart';
-
-void main() {
-	group('$1', (){
-	  test('$2', () {
-	  	$0
-	  });
-	});
-}
-endsnippet
-
-snippet wtestFile "widget test file"
-import 'package:flutter_test/flutter_test.dart';
-
-void main() {
-	testWidgets('$1', (WidgetTester tester) async {
-		$0
-	});
-}
-endsnippet
-
-snippet tw "test widget"
+snippet tw
 testWidgets('$1', (WidgetTester tester) async {
 	$0
 });
@@ -65,4 +28,41 @@ endsnippet
 
 snippet localizations "adds localizations line"
 final localizations = RemoteLocalizations.of(context);
+endsnippet
+
+snippet jsbuilt "create JsonSerializable class" b
+import 'package:json_annotation/json_annotation.dart';
+
+part '${1:`!v expand('%:t:r')`.g.dart}';
+
+@JsonSerializable()
+class ${1:CLASS_NAME} {
+
+factory $1.fromJson(Map<String, dynamic> json) =>
+	_$$1FromJson(json);
+
+Map<String, dynamic> toJson() => _$$1ToJson(this);
+}
+endsnippet
+
+snippet testFile "unit test file" b
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+	group('$1', (){
+	  test('$2', () {
+	  	$0
+	  });
+	});
+}
+endsnippet
+
+snippet wtestFile "widget test file" b
+import 'package:flutter_test/flutter_test.dart';
+
+void main() {
+	testWidgets('$1', (WidgetTester tester) async {
+		$0
+	});
+}
 endsnippet

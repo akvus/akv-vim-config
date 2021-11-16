@@ -2,11 +2,13 @@ call plug#begin()
 
 " Dart/Flutter
 Plug 'dart-lang/dart-vim-plugin'
-Plug 'thosakwe/vim-flutter'
+" Plug 'thosakwe/vim-flutter'
+Plug 'akinsho/flutter-tools.nvim'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'akinsho/flutter-tools.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Snippets
 Plug 'SirVer/Ultisnips'
@@ -33,9 +35,6 @@ Plug 'junegunn/gv.vim'
 " Auto save
 Plug 'Pocco81/AutoSave.nvim'
 
-" Language support
-Plug 'tpope/vim-projectionist'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Open and close brackets automatically
 Plug 'jiangmiao/auto-pairs'
 " Color brackets to be distinquishable fro one another
