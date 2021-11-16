@@ -216,6 +216,8 @@ Flutter commands: https://github.com/iamcco/coc-flutter#commands
 
 :ter flutter pub global run devtools
 
+:CocCommand flutter.dev.openDevLog - opens nicely colored log
+
 Use `derry` dart package for defining commands
 ```
 
@@ -254,3 +256,16 @@ Use `derry` dart package for defining commands
 ## Common issues
 
 `brew install ripgrep` - otherwise :Rg will nto work
+
+## Plugins
+
+### Flutter/Dart
+https://github.com/natebosch/vim-lsc
+https://github.com/natebosch/vim-lsc-dart
+https://github.com/dart-lang/dart-vim-plugin 
+https://github.com/iamcco/coc-flutter 
+https://github.com/theniceboy/coc-flutter-tools
+https://github.com/neoclide/coc.nvim 
+https://github.com/thosakwe/vim-flutter
+https://github.com/akinsho/flutter-tools.nvim 
+
