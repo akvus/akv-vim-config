@@ -1,4 +1,8 @@
 {
 	"diagnostic.checkCurrentLine": true,
-	"diagnostic.highlighLimit": 500
+	"diagnostic.highlighLimit": 500,
+	"dart.showTodos": true,
+	"flutter.fvm.enabled": true,
+	"flutter.trace.server": "verbose",
+	"flutter.sdk.flutter-lookup": "asdf which flutter"
 }

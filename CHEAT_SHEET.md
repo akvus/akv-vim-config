@@ -102,11 +102,13 @@ https://vim.fandom.com/wiki/Sort_lines
 <ya{> - copy from within {
 ```
 
-## Splits
+## Splits and files
 
 ```
 :vert res +10 -> vertical resize +10
 :res -10 -> horizontal resize -10
+:e# - go to previous open buffer
+:e#n - got to <n>th previously opened buffer
 ```
 
 ## COC/language server
@@ -191,6 +193,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 <C-p> - :Files
 <leader>l - :Lines
+
+Docs: https://github.com/junegunn/fzf.vim
 ```
 
 ## Flutter:
