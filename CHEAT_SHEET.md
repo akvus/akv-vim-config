@@ -290,6 +290,10 @@ https://github.com/neoclide/coc.nvim
 https://github.com/thosakwe/vim-flutter
 https://github.com/akinsho/flutter-tools.nvim 
 
+### Other to consider
+https://github.com/folke/todo-comments.nvim - TODO management, could not make it work
+https://github.com/tpope/vim-unimpaired  - some mappings to consider
+
 ## What I am missing
 
 * highlighting dart HEX colors 
