@@ -15,6 +15,7 @@ nmap <silent> <c-l> :wincmd l<CR>
 " Fzf mappings
 nmap <C-P> :Files<CR>
 nmap <Leader>l :Lines<CR>
+nmap <Leader>h :History<CR>
 
 " Flutter Coc commands
 nmap <silent> <Leader>fpg :CocCommand flutter.pub.get<CR>
