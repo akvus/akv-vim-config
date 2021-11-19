@@ -276,3 +276,9 @@ https://github.com/neoclide/coc.nvim
 https://github.com/thosakwe/vim-flutter
 https://github.com/akinsho/flutter-tools.nvim 
 
+### What I am missing
+
+* highlighting dart HEX colors 
+* icon previews 
+* autosave + autoformat in dart conflicting
+* IDE like search and replace in all files

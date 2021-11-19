@@ -1,14 +1,15 @@
 call plug#begin()
 
+" set up lua
+Plug 'nvim-lua/plenary.nvim'
+
 " Dart/Flutter
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
 " Plug 'akinsho/flutter-tools.nvim'
 " plenery.nvim is together with flutter-tools.nvim
-" Plug 'nvim-lua/plenary.nvim'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
-Plug 'nvim-lua/plenary.nvim'
 Plug 'akinsho/flutter-tools.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-test/vim-test'
@@ -70,6 +71,12 @@ Plug 'tpope/vim-surround'
 
 " Highlight color names with actual color
 Plug 'chrisbra/Colorizer'
+
+" highlight comments and show them at outline/overview, requires lua
+" Plug 'folke/todo-comments.nvim'
+" lua <<EOF
+" require("todo-comments").setup {}
+" EOF
 
 " Theme
 Plug 'morhetz/gruvbox'
