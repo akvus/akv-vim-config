@@ -32,9 +32,14 @@ Plug 'mtdl9/vim-log-highlighting'
 
 " Git
 Plug 'tpope/vim-fugitive'
-Plug 'vim-airline/vim-airline'
+" Adds information about what changed to the file at the place of line numbers
+" on left
 Plug 'mhinz/vim-signify'
+" Git commit browser
 Plug 'junegunn/gv.vim'
+
+" Status line for vim
+Plug 'vim-airline/vim-airline'
 
 " Auto save
 Plug 'Pocco81/AutoSave.nvim'
