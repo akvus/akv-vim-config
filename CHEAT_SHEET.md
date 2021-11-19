@@ -201,7 +201,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 Docs: https://github.com/junegunn/fzf.vim
 ```
 
-## Flutter:
+## Flutter
+See also the Coc section
 
 ```
 <leader><fa> - flutter run
@@ -227,6 +228,9 @@ Flutter commands: https://github.com/iamcco/coc-flutter#commands
 :CocCommand flutter.dev.openDevLog - opens nicely colored log
 
 Use `derry` dart package for defining commands
+
+For debugging:
+:CocCommand flutter.dev.openDevToolsProfiler - opens Flutter dev tools with debugger
 ```
 
 ## GIT
