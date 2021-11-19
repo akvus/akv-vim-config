@@ -102,6 +102,7 @@ https://vim.fandom.com/wiki/Sort_lines
 <di}> - inside of {} brackets (:help text-objects)
 <dw> - ?
 <ya{> - copy from within {
+<df,> - delete until , 
 ```
 
 ## Splits and files
@@ -260,6 +261,19 @@ Use `derry` dart package for defining commands
 :TtestFile --no-sound-null-safety - and other options can be added
 ```
 
+## Multicursor
+
+```
+<C-n> - select a selection, add next occurance of the selection with next cursor <C-n>
+      - then use normal stuff <d><i><c> to work with the multi-selection 
+<C-x> - skip current instance
+
+To work with single chars like , in [a,b,c] - go to visual mode and then <C-n>
+
+Commenting multiple lines:
+<C-v> - open visual mode, select lines, <I>,<jj>
+```
+
 ## Common issues
 
 `brew install ripgrep` - otherwise :Rg will nto work
@@ -276,7 +290,7 @@ https://github.com/neoclide/coc.nvim
 https://github.com/thosakwe/vim-flutter
 https://github.com/akinsho/flutter-tools.nvim 
 
-### What I am missing
+## What I am missing
 
 * highlighting dart HEX colors 
 * icon previews 
