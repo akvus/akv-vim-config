@@ -31,8 +31,6 @@ set clipboard
 set mouse=a
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-g:netrw_browsex_viewer=chrome
-
 " Spelling correction
 set spell spelllang=en_us
 
@@ -53,3 +51,4 @@ set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%
 " Show the status on the second to last line.
 set laststatus=2
 
+let g:netrw_browsex_viewer="chrome"
