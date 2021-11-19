@@ -20,7 +20,7 @@ nmap <Leader>h :History<CR>
 " Flutter Coc commands
 nmap <silent> <Leader>fpg :CocCommand flutter.pub.get<CR>
 nmap <silent> <Leader>fd :CocCommand flutter.devices<CR>
-nmap <silent> <Leader>fs :CocCommand flutter.run<CR>
+nmap <silent> <Leader>fa :CocCommand flutter.run<CR>
 nmap <silent> <Leader>fq :CocCommand flutter.dev.quit<CR>
 nmap <silent> <Leader>fl :CocCommand flutter.dev.openDevLog<CR>
 nmap <silent> <Leader>fcl :CocCommand flutter.dev.clearDevLog<CR>

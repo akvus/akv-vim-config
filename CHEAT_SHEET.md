@@ -176,7 +176,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 <F3> - open tree and reveal file
 ```
 
-## FZF :Files -> files with preview
+## FZF
 
 ```
 :Ag
@@ -186,7 +186,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 :Windows -> search in open splits
 :History: -> history of commands
 :History -> history of open files
-:Shippets -> 
+:Shippets 
 :Commits
 :Commands
 :Maps -> key mappings
@@ -197,9 +197,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 <C-p> - :Files
 <leader>l - :Lines
-
-Docs: https://github.com/junegunn/fzf.vim
 ```
+Docs: https://github.com/junegunn/fzf.vim
 
 ## Flutter
 See also the Coc section
