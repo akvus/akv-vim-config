@@ -296,7 +296,8 @@ https://github.com/akinsho/flutter-tools.nvim
 
 ### Other to consider
 https://github.com/folke/todo-comments.nvim - TODO management, could not make it work
-https://github.com/tpope/vim-unimpaired  - some mappings to consider
+https://github.com/tpope/vim-unimpaired - some mappings to consider
+https://github.com/mfussenegger/nvim-dap - apparently there is a way with flutter-tools.nvim and this to debug directly in VIM instead of dev tools
 
 ## What I am missing
 
