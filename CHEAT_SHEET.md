@@ -113,6 +113,7 @@ https://vim.fandom.com/wiki/Sort_lines
 :e# - go to previous open buffer
 :e#n - got to <n>th previously opened buffer
 :W - show open splits as a list to chose from 
+<C-w><L> - move split to right, <H><J><K> - respectivly
 ```
 
 ## COC/language server
