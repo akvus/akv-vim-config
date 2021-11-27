@@ -6,11 +6,10 @@ Plug 'nvim-lua/plenary.nvim'
 " Dart/Flutter
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
+" Flutter tools (require lua)
 " Plug 'akinsho/flutter-tools.nvim'
-" plenery.nvim is together with flutter-tools.nvim
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
-Plug 'akinsho/flutter-tools.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-test/vim-test'
 
@@ -18,10 +17,6 @@ Plug 'vim-test/vim-test'
 Plug 'SirVer/Ultisnips'
 Plug 'natebosch/dartlang-snippets'
 Plug 'honza/vim-snippets'
-
-" Typescript
-Plug 'ianks/vim-tsx'
-Plug 'leafgarland/typescript-vim'
 
 " Log coloring
 Plug 'mtdl9/vim-log-highlighting'
