@@ -11,6 +11,7 @@ Plug 'thosakwe/vim-flutter'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Test runner
 Plug 'vim-test/vim-test'
 
 " Snippets
@@ -38,7 +39,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'jiangmiao/auto-pairs'
 " Colors brackets
 Plug 'frazrepo/vim-rainbow'
-" Help with pairs of brackets etc
+" Help with surrounding stuff
 Plug 'tpope/vim-surround'
 
 " Files navigation and visual tree

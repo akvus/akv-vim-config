@@ -273,9 +273,17 @@ Commenting multiple lines:
 <C-v> - open visual mode, select lines, <I>,<jj>
 ```
 
+## Surround
+
+```
+cs"' - will replace a pair of "" with ''
+cs'<q> - will replace a par of '' with <q></q>
+```
+See more: https://github.com/tpope/vim-surround
+
 ## Common issues
 
-`brew install ripgrep` - otherwise :Rg will nto work
+`brew install ripgrep` - otherwise :Rg will not work
 
 ## Plugins
 
