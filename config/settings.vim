@@ -34,8 +34,6 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 " Spelling correction
 set spell spelllang=en_us
 
-" STATUS LINE ------------------------------------------------------------ {{{
-
 " Clear status line when vimrc is reloaded.
 set statusline=
 
