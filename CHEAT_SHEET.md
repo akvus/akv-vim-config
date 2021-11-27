@@ -22,6 +22,7 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 
 gx - in normal mode opens URL under cursor (or file)
 
+:ls - list of open buffers, `+` means the buffer was changed and unsaved
 :h command - read help for a command
 ```
 
