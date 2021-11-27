@@ -27,8 +27,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/gv.vim'
 " Adds information about what changed to the file at the place of line numbers
 Plug 'mhinz/vim-signify'
-" Like signify
-Plug 'airblade/vim-gitgutter'
 
 " Status line for vim
 Plug 'vim-airline/vim-airline'
