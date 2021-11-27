@@ -64,12 +64,6 @@ Plug 'mg979/vim-visual-multi'
 " format
 " Plug 'chrisbra/Colorizer'
 
-" highlight comments and show them at outline/overview, requires lua
-" Plug 'folke/todo-comments.nvim'
-" lua <<EOF
-" require("todo-comments").setup {}
-" EOF
-
 " Theme
 Plug 'morhetz/gruvbox'
 autocmd vimenter * ++nested colorscheme gruvbox
