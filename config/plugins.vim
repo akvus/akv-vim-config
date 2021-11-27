@@ -21,13 +21,13 @@ Plug 'honza/vim-snippets'
 " Log coloring
 Plug 'mtdl9/vim-log-highlighting'
 
-" Git
+" Git commands
 Plug 'tpope/vim-fugitive'
-" Adds information about what changed to the file at the place of line numbers
-Plug 'mhinz/vim-signify'
 " Git commit browser
 Plug 'junegunn/gv.vim'
-" Information about changed lines in a file
+" Adds information about what changed to the file at the place of line numbers
+Plug 'mhinz/vim-signify'
+" Like signify
 Plug 'airblade/vim-gitgutter'
 
 " Status line for vim
@@ -51,10 +51,10 @@ Plug 'preservim/nerdtree'
 " Search
 Plug 'justinmk/vim-sneak'
 
-" Fzf - navigation
+" Fzf
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Rg - integrates with Fzf
+" Rg - integrates with Fzf to search in files
 Plug 'BurntSushi/ripgrep'
 
 " Multi cursor
