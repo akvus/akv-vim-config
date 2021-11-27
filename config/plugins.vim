@@ -3,29 +3,41 @@ call plug#begin()
 " set up lua
 Plug 'nvim-lua/plenary.nvim'
 
-" Dart/Flutter
+" Dart support
 Plug 'dart-lang/dart-vim-plugin'
+
+" Flutter suppport
 Plug 'thosakwe/vim-flutter'
+
 " Flutter tools (require lua)
 " Plug 'akinsho/flutter-tools.nvim'
+
+" LSC server
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
+
+" Text editing support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " Test runner
 Plug 'vim-test/vim-test'
 
 " Snippets
 Plug 'SirVer/Ultisnips'
 Plug 'natebosch/dartlang-snippets'
-Plug 'honza/vim-snippets'
+
+" General snippets - ISSUE - not needed?
+" Plug 'honza/vim-snippets'
 
 " Log coloring
 Plug 'mtdl9/vim-log-highlighting'
 
 " Git commands
 Plug 'tpope/vim-fugitive'
+
 " Git commit browser
 Plug 'junegunn/gv.vim'
+
 " Adds information about what changed to the file at the place of line numbers
 Plug 'mhinz/vim-signify'
 
@@ -37,17 +49,19 @@ Plug 'vim-airline/vim-airline'
 
 " Open and close brackets automatically
 Plug 'jiangmiao/auto-pairs'
+
 " Colors brackets
 Plug 'frazrepo/vim-rainbow'
+
 " Help with surrounding stuff
 Plug 'tpope/vim-surround'
 
-" Files navigation and visual tree
+" NERDTree and related
+Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'preservim/nerdtree'
 
-" Search
+" Search by typing 2 chars
 Plug 'justinmk/vim-sneak'
 
 " Fzf
