@@ -21,28 +21,27 @@ Plug 'honza/vim-snippets'
 " Log coloring
 Plug 'mtdl9/vim-log-highlighting'
 
-" Kotlin/Java/Android TODO
-
-" Swift/C/IOS TODO
-
 " Git
 Plug 'tpope/vim-fugitive'
 " Adds information about what changed to the file at the place of line numbers
-" on left
 Plug 'mhinz/vim-signify'
 " Git commit browser
 Plug 'junegunn/gv.vim'
+" Information about changed lines in a file
+Plug 'airblade/vim-gitgutter'
 
 " Status line for vim
 Plug 'vim-airline/vim-airline'
 
-" Auto save
-Plug 'Pocco81/AutoSave.nvim'
+" Auto save - ISSUE - conflicting with auto format on save for dart
+" Plug 'Pocco81/AutoSave.nvim'
 
 " Open and close brackets automatically
 Plug 'jiangmiao/auto-pairs'
-" Color brackets to be distinquishable fro one another
+" Colors brackets
 Plug 'frazrepo/vim-rainbow'
+" Help with pairs of brackets etc
+Plug 'tpope/vim-surround'
 
 " Files navigation and visual tree
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -55,22 +54,15 @@ Plug 'justinmk/vim-sneak'
 " Fzf - navigation
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Ag
-Plug 'ggreer/the_silver_searcher'
-" Rg
+" Rg - integrates with Fzf
 Plug 'BurntSushi/ripgrep'
-
-" Information about changed lines in a file
-Plug 'airblade/vim-gitgutter'
 
 " Multi cursor
 Plug 'mg979/vim-visual-multi'
 
-" Help with pairs of brackets etc
-Plug 'tpope/vim-surround'
-
-" Highlight color names with actual color
-Plug 'chrisbra/Colorizer'
+" Highlight color names with actual color - ISSUE - does not work with dart's
+" format
+" Plug 'chrisbra/Colorizer'
 
 " highlight comments and show them at outline/overview, requires lua
 " Plug 'folke/todo-comments.nvim'
