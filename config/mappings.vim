@@ -32,8 +32,9 @@ nmap <silent> <Leader>fpo :CocCommand flutter.dev.showPerformanceOverlay<CR>
 nmap <silent> <Leader>fio :CocCommand flutter.dev.showWidgetInspectorOverride<CR>
 nmap <silent> <Leader>fs :CocCommand flutter.dev.screenshot<CR>
 
+" flutter-vim pluign
 " Enable Flutter menu
-call FlutterMenu()
+" call FlutterMenu()
 
 " Flutter plugin commands
 " nnoremap <leader>fa :FlutterRun<cr>
@@ -52,4 +53,9 @@ silent! map <F3> :NERDTreeFind<CR>
 
 let g:NERDTreeMapActivateNode="<F3>"
 let g:NERDTreeMapPreview="<F4>"
+
+" quit
+nmap <silent> <Leader>q :q<CR>
+nmap <silent> <Leader>Q :qa!<CR>
+nmap <silent> <Leader>x :x<CR>
 
