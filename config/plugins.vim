@@ -7,7 +7,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'dart-lang/dart-vim-plugin'
 
 " Flutter suppport
-Plug 'thosakwe/vim-flutter'
+" Plug 'thosakwe/vim-flutter'
 
 " Flutter tools (require lua)
 " Plug 'akinsho/flutter-tools.nvim'
