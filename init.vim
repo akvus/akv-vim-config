@@ -11,5 +11,5 @@ source $HOME/.config/nvim/modules/autosave.vim
 source $HOME/.config/nvim/modules/vim-rainbow.vim
 source $HOME/.config/nvim/modules/signify.vim
 
-let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/snippets/dart.snippets']
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.config/nvim/ultisnips/dart.snippets']
 
