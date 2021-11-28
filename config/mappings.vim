@@ -31,6 +31,7 @@ nmap <silent> <Leader>fp :CocCommand flutter.dev.openProfiler<CR>
 nmap <silent> <Leader>fpo :CocCommand flutter.dev.showPerformanceOverlay<CR>
 nmap <silent> <Leader>fio :CocCommand flutter.dev.showWidgetInspectorOverride<CR>
 nmap <silent> <Leader>fs :CocCommand flutter.dev.screenshot<CR>
+nmap <silent> <Leader>flr :CocCommand flutter.lsp.restart<CR>
 
 " flutter-vim pluign
 " Enable Flutter menu
