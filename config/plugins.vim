@@ -27,7 +27,7 @@ Plug 'SirVer/Ultisnips'
 Plug 'natebosch/dartlang-snippets'
 
 " General snippets - ISSUE - not needed?
-" Plug 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 
 " Log coloring
 Plug 'mtdl9/vim-log-highlighting'
