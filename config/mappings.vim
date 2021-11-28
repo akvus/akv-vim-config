@@ -60,3 +60,6 @@ nmap <silent> <Leader>q :q<CR>
 nmap <silent> <Leader>Q :qa!<CR>
 nmap <silent> <Leader>x :x<CR>
 
+" copy to clipboard
+nmap <silent> <Leader>cc :w !pbcopy<CR>
+
