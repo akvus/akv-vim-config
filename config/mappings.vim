@@ -33,18 +33,6 @@ nmap <silent> <Leader>fio :CocCommand flutter.dev.showWidgetInspectorOverride<CR
 nmap <silent> <Leader>fs :CocCommand flutter.dev.screenshot<CR>
 nmap <silent> <Leader>flr :CocCommand flutter.lsp.restart<CR>
 
-" flutter-vim pluign
-" Enable Flutter menu
-" call FlutterMenu()
-
-" Flutter plugin commands
-" nnoremap <leader>fa :FlutterRun<cr>
-" nnoremap <leader>fq :FlutterQuit<cr>
-" nnoremap <leader>fr :FlutterHotReload<cr>
-" nnoremap <leader>fR :FlutterHotRestart<cr>
-" nnoremap <leader>fD :FlutterVisualDebug<cr>
-"
-
 " NERDTree mappings
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
