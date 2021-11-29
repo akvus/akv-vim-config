@@ -1,7 +1,7 @@
 call plug#begin()
 
 " set up lua
-Plug 'nvim-lua/plenary.nvim'
+" Plug 'nvim-lua/plenary.nvim'
 
 " Dart support
 Plug 'dart-lang/dart-vim-plugin'
@@ -26,11 +26,11 @@ Plug 'vim-test/vim-test'
 Plug 'SirVer/Ultisnips'
 Plug 'natebosch/dartlang-snippets'
 
-" General snippets - ISSUE - not needed?
+" General snippets - also relevant for Flutter
 Plug 'honza/vim-snippets'
 
-" Log coloring
-Plug 'mtdl9/vim-log-highlighting'
+" Log coloring - SEE IF HELPFUL
+" Plug 'mtdl9/vim-log-highlighting'
 
 " Git commands
 Plug 'tpope/vim-fugitive'
