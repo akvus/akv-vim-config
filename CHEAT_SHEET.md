@@ -42,7 +42,7 @@ gx - in normal mode opens URL under cursor (or file)
 ```
 :%s/findString/replaceString/g -> g means replace all
 :%s/findString/replaceString/gc-> gc - to confirm each replacement
-:not - reset search highlighting
+:noh - reset search highlighting
 <S-#> - hightlights all instances of the word under cursor - next press moves to next find
 ```
 
