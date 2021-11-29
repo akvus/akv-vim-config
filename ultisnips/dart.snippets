@@ -10,6 +10,25 @@ class $0 extends ConsumerWidget {
 }
 endsnippet
 
+snippet riverViewModel "riverpod style view model"
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:goodbadday/common/architecture/view/view_model.dart';
+
+final $0ViewModelProvider =
+    StateNotifierProvider.autoDispose<$1ViewModel, $2>(
+  (ref) => $1ViewModel(),
+);
+
+class $1ViewModel extends ViewModel<$2> {
+  $1ViewModel() : super(null);
+
+  @override
+  void onInit() {
+    // TODO: implement onInit
+  }
+}
+endsnippet
+
 snippet tw "test widget"
 testWidgets('$1', (WidgetTester tester) async {
 	$0
