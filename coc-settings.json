@@ -2,6 +2,6 @@
 	"diagnostic.checkCurrentLine": true,
 	"diagnostic.highlighLimit": 300,
 	"dart.showTodos": true,
-	"flutter.autoOpenDevLog": true,
+	"flutter.autoOpenDevLog": false,
 	"flutter.sdk.flutter-lookup": "asdf which flutter"
 }
