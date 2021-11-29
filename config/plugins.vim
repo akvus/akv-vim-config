@@ -30,7 +30,7 @@ Plug 'natebosch/dartlang-snippets'
 Plug 'honza/vim-snippets'
 
 " Log coloring - SEE IF HELPFUL
-" Plug 'mtdl9/vim-log-highlighting'
+Plug 'mtdl9/vim-log-highlighting'
 
 " Git commands
 Plug 'tpope/vim-fugitive'
