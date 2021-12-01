@@ -157,6 +157,8 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 :Fold - folds sections in file
 :Format - formats file
 :OR - organize imports
+
+<[g> and <]g> - to navigate diagnostics
 ```
 
 ## NERDTree
