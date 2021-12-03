@@ -44,6 +44,7 @@ gx - in normal mode opens URL under cursor (or file)
 :%s/findString/replaceString/gc-> gc - to confirm each replacement
 :noh - reset search highlighting
 <S-#> - hightlights all instances of the word under cursor - next press moves to next find
+<n> - go to next search
 ```
 
 ## Navigation in normal mode
