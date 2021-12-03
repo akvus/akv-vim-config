@@ -13,8 +13,8 @@ Plug 'dart-lang/dart-vim-plugin'
 " Plug 'akinsho/flutter-tools.nvim'
 
 " LSC server
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
+"Plug 'natebosch/vim-lsc'
+"Plug 'natebosch/vim-lsc-dart'
 
 " Text editing support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
