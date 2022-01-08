@@ -32,8 +32,9 @@ nmap <silent> <Leader>fpo :CocCommand flutter.dev.showPerformanceOverlay<CR>
 nmap <silent> <Leader>fio :CocCommand flutter.dev.showWidgetInspectorOverride<CR>
 nmap <silent> <Leader>fs :CocCommand flutter.dev.screenshot<CR>
 nmap <silent> <Leader>flr :CocCommand flutter.lsp.restart<CR>
+nmap <silent> <Leader>rcf :CocCommand workspace.renameCurrentFile<CR>
 
-" NERDTree mappings
+" NERDTree mappingf
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
