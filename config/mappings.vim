@@ -35,8 +35,9 @@ nmap <silent> <Leader>flr :CocCommand flutter.lsp.restart<CR>
 nmap <silent> <Leader>rcf :CocCommand workspace.renameCurrentFile<CR>
 
 " Git
-nmap <silent> <Leader>gph :G push<CR>
-nmap <silent> <Leader>gpl :G pull<CR>
+nmap <silent> <Leader>gp :G push<CR>
+nmap <silent> <Leader>gl :G pull<CR>
+nmap <silent> <Leader>gf :G fetch<CR>
 nmap <silent> <Leader>gaa :G add .<CR>
 nmap <silent> <Leader>gs :G status<CR>
 
