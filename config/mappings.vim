@@ -34,6 +34,12 @@ nmap <silent> <Leader>fs :CocCommand flutter.dev.screenshot<CR>
 nmap <silent> <Leader>flr :CocCommand flutter.lsp.restart<CR>
 nmap <silent> <Leader>rcf :CocCommand workspace.renameCurrentFile<CR>
 
+" Git
+nmap <silent> <Leader>gph :G push<CR>
+nmap <silent> <Leader>gpl :G pull<CR>
+nmap <silent> <Leader>gaa :G add .<CR>
+nmap <silent> <Leader>gs :G status<CR>
+
 " NERDTree mappingf
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
