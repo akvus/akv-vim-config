@@ -6,6 +6,10 @@ let mapleader=","
 inoremap jj <Esc>
 tnoremap jj <c-\><c-n>
 
+" window resizing
+nmap <silent> <Leader>= :vert res +10<CR>
+nmap <silent> <Leader>- :vert res -10<CR>
+
 " Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
