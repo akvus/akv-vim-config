@@ -171,3 +171,12 @@ let g:UltiSnipsExpandTrigger = '<Nop>'
 let g:coc_snippet_next = '<TAB>'
 let g:coc_snippet_prev = '<S-TAB>'
 
+
+let g:coc_global_extensions = [
+      \'coc-flutter', 
+      \'coc-json', 
+      \'coc-yaml',
+      \'coc-tsserver',
+      \'coc-snippets',
+      \'coc-git'
+      \]
