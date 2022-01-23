@@ -5,6 +5,7 @@
 ```
 <u> - undo
 <C-r> - redo
+<D> - delete till end of line
 
 https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 
