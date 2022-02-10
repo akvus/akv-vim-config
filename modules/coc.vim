@@ -176,7 +176,6 @@ let g:coc_global_extensions = [
       \'coc-flutter', 
       \'coc-json', 
       \'coc-yaml',
-      \'coc-tsserver',
       \'coc-snippets',
       \'coc-git'
       \]
