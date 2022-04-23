@@ -13,8 +13,8 @@ setUp(() {
 });
 endsnippet
 
-snippet appThemeProvided "riverprod style appTheme"
-final appTheme = context.read(appThemeProvider);
+snippet appTheme "riverprod style appTheme"
+final appTheme = ref.watch(appThemeProvider);
 endsnippet
 
 snippet riverViewModel "riverpod style view model"
