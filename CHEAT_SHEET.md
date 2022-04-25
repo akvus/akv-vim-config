@@ -187,12 +187,12 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 ```
 :Ag
-:Rg -> find IN files - DOES NOT SEEM TO WORK?
-:GFiles -> Git files (git ls-files)
-:Lines -> lines in loaded file search
-:Windows -> search in open splits
-:History: -> history of commands
-:History -> history of open files
+:Rg - find in files (sudo apt-get install ripgrep)
+:GFiles - Git files (git ls-files)
+:Lines - find line in open file
+:Windows - find in open splits
+:History: - find in history of commands
+:History - find in history of opened files
 :Shippets 
 :Commits
 :Commands
