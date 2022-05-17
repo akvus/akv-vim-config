@@ -12,3 +12,12 @@ function! RipgrepFzf(query, fullscreen)
 endfunction
 
 command! -nargs=* -bang RG call RipgrepFzf(<q-args>, <bang>0)
+
+let g:fzf_action = {
+      \ 'alt-t': 'tab split',
+      \ 'alt-s': 'split',
+      \ 'alt-v': 'vsplit',
+      \ 'ctrl-t': 'tab split',
+      \ 'ctrl-s': 'split',
+      \ 'ctrl-v': 'vsplit'
+  \ }

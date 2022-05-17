@@ -1,5 +1,7 @@
 snippet consumerWidget "consumer widget"
 class $0 extends ConsumerWidget {
+  const $0({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Container();
@@ -7,7 +9,7 @@ class $0 extends ConsumerWidget {
 }
 endsnippet
 
-snippet setUpTest "adds set up method to test"
+snippet tsu "adds set up method to test"
 setUp(() {
 
 });
