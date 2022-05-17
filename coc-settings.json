@@ -3,5 +3,6 @@
 	"diagnostic.highlighLimit": 300,
 	"dart.showTodos": true,
 	"flutter.autoOpenDevLog": false,
+	"snippets.ultisnips.usePythonx": false,
 	"flutter.sdk.flutter-lookup": "asdf which flutter"
 }
