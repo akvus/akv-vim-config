@@ -6,6 +6,10 @@ call plug#begin()
 " Dart support
 Plug 'dart-lang/dart-vim-plugin'
 
+" Other syntax highlighting stuff, supports kotlin
+" Note: requires gcc or other c compiler at PATH
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 " Flutter suppport
 " Plug 'thosakwe/vim-flutter'
 
