@@ -1,7 +1,5 @@
 let mapleader=","
 
-" Note: coc standard mappings are at modules/coc.vim
-
 " Type jj to exit insert mode quickly.
 inoremap jj <Esc>
 tnoremap jj <c-\><c-n>
