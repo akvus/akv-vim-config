@@ -29,6 +29,12 @@ set softtabstop=0 noexpandtab
 set shiftwidth=2
 set clipboard
 set mouse=a
+set encoding=utf-8
+set hidden
+set nowritebackup
+set cmdheight=2
+set updatetime=300
+set shortmess+=c
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " Spelling correction
