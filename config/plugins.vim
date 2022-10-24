@@ -57,6 +57,9 @@ Plug 'BurntSushi/ripgrep'
 " Multi cursor
 Plug 'mg979/vim-visual-multi'
 
+" Check gramma
+Plug 'rhysd/vim-grammarous'
+
 " Theme
 Plug 'morhetz/gruvbox'
 autocmd vimenter * ++nested colorscheme gruvbox
