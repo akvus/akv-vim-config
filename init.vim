@@ -18,7 +18,5 @@ source $HOME/.config/nvim/modules/sneak.vim
 source $HOME/.config/nvim/modules/vim-rainbow.vim
 source $HOME/.config/nvim/modules/signify.vim
 
-luafile $HOME/.config/nvim/modules/treesitter.lua
-
 let g:UltiSnipsSnippetDirectories=['UltiSnips', $HOME.'/.config/nvim/ultisnips/dart.snippets', 'ultisnips']
 

@@ -1,20 +1,7 @@
 call plug#begin()
 
-" set up lua
-" Plug 'nvim-lua/plenary.nvim'
-
 " Dart support
 Plug 'dart-lang/dart-vim-plugin'
-
-" Other syntax highlighting stuff, supports kotlin
-" Note: requires gcc or other c compiler at PATH
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
-" Flutter suppport
-" Plug 'thosakwe/vim-flutter'
-
-" Flutter tools (require lua)
-" Plug 'akinsho/flutter-tools.nvim'
 
 " Text editing support
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -44,9 +31,6 @@ Plug 'mhinz/vim-signify'
 " Status line for vim
 Plug 'vim-airline/vim-airline'
 
-" Auto save - ISSUE - conflicting with auto format on save for dart
-" Plug 'Pocco81/AutoSave.nvim'
-
 " Open and close brackets automatically
 Plug 'jiangmiao/auto-pairs'
 
@@ -72,10 +56,6 @@ Plug 'BurntSushi/ripgrep'
 
 " Multi cursor
 Plug 'mg979/vim-visual-multi'
-
-" Highlight color names with actual color - ISSUE - does not work with dart's
-" format
-" Plug 'chrisbra/Colorizer'
 
 " Theme
 Plug 'morhetz/gruvbox'
