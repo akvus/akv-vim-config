@@ -19,7 +19,7 @@ set hlsearch
 set history=500
 " auto completition on tab
 set wildmenu
-set wildmode=list:longest
+set wildmode=longest:full,full
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set nobackup
 set undofile
