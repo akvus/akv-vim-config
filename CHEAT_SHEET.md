@@ -7,8 +7,6 @@
 <C-r> - redo
 <D> - delete till end of line
 
-https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
-
 <leader><j> - recent files navigation
 
 :ter - opens terminal window
@@ -21,11 +19,15 @@ https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 <ddkP> - move line up
 <ddp> - move line down
 
-gx - in normal mode opens URL under cursor (or file)
+<gx> - in normal mode opens URL under cursor (or file)
 
 :ls - list of open buffers, `+` means the buffer was changed and unsaved
 :h command - read help for a command
 :wa - save all open buffers
+
+---
+
+https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 ```
 
 ## Insertion
@@ -82,6 +84,7 @@ gx - in normal mode opens URL under cursor (or file)
 ```
 —visual
 < or > and repeat with <.>
+
 —insert
 ctrl+d ctrl+t
 ```
@@ -124,6 +127,7 @@ https://vim.fandom.com/wiki/Sort_lines
 :e# - go to previous open buffer
 :e#n - got to <n>th previously opened buffer
 :W - show open splits as a list to chose from 
+
 <C-w><L> - move split to right, <H><J><K> - respectivly
 ```
 
@@ -205,7 +209,7 @@ List of extensions: https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensio
 <C-V> - open new v split
 
 <C-p> - :Files
-<leader>l - :Lines
+<leader><l> - :Lines
 ```
 Docs: https://github.com/junegunn/fzf.vim
 
