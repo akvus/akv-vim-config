@@ -10,8 +10,6 @@ function! CheckBackSpace() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-imap <tab> <Plug>(coc-snippets-expand)
-
 " also Ulti snips settings since related
 let g:UltiSnipsExpandTrigger = '<Nop>'
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
@@ -141,9 +139,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>c
-
-" MY EXTRA SETTINGS
-
 
 let g:coc_global_extensions = [
       \'coc-flutter', 
