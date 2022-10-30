@@ -217,46 +217,25 @@ Docs: https://github.com/junegunn/fzf.vim
 See also the Coc section
 Custom commands at config/mappings.vim
 ```
-:FlutterRun <args>
-:FlutterHotReload
-:FlutterHotRestart
-:FlutterQuit
-:FlutterDevices
-:FlutterSplit - opens output in horizontal split
-:FlutterEmulators - executes flutter emulator process
-:FlutterEmulatorsLaunch - ?
-:FlutterVisualDebug - ?
-
-Flutter commands: https://github.com/iamcco/coc-flutter#commands
+See config/mappings.vim to see my custom mappings for Flutter COC commands
 
 :ter flutter pub global run devtools
-
 :CocCommand flutter.dev.openDevLog - opens nicely colored log
-
-Use `derry` dart package for defining commands
-
-For debugging:
 :CocCommand flutter.dev.openDevToolsProfiler - opens Flutter dev tools with debugger
 ```
 
 ## GIT
 
 ```
-:Git 
-- A/add
-- C/commit
-- Push/pull
-- Diff
-- Blame
-- Log
-- S/status
+See config/mappings.vim to see my custom mappings for git
+
 :GitFiles -> search in git files
 :Gdiffsplit -> two splits with diff
 :GBrowse -> go to file on GitHub (browser)
 :GV -> git commit browser
 :GV! -> only commits affecting current file
   - o - to open a commit
- - l - to open a file in a commit
+  - l - to open a file in a commit
 ```
 
 ## Test
@@ -267,7 +246,6 @@ For debugging:
 :TestSuite - Runs the whole test suite (if the current file is a test file, runs that framework's test suite, otherwise determines the test framework from the last run test).
 :TestLast - Runs the last test.
 :TestVisit - Visits the test file from which you last run your tests (useful when you're trying to make a test pass, and you dive deep into application code and close your test buffer to make more space, and once you've made it pass you want to go back to the test file to write more tests).
-
 :TtestFile --no-sound-null-safety - and other options can be added
 ```
 
