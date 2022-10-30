@@ -9,10 +9,10 @@
 
 https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
 
-<leader><j> or <k> recent files navigation
+<leader><j> - recent files navigation
 
 :ter - opens terminal window
-<:! command> - runs a command i.e.: `:! flutter test`
+:! command - runs a command i.e.: `:! flutter test`
 
 :lopen - open split with errors and warnings
 :lnext, :lprev - to navigate between errors and warnings
@@ -47,6 +47,13 @@ gx - in normal mode opens URL under cursor (or file)
 :noh - reset search highlighting
 <S-#> - hightlights all instances of the word under cursor - next press moves to next find
 <n> - go to next search
+```
+
+## Completition
+```
+<tab> or <leader><space> - trigger suggestions
+<c-p> <c-n> - next, previous suggestion 
+<tab> or <enter> - to accept
 ```
 
 ## Navigation in normal mode
@@ -123,45 +130,40 @@ https://vim.fandom.com/wiki/Sort_lines
 ## COC/language server
 
 ```
-<.> - open action menu ?????? - NOT WORKING OR WHT WAS THAT?
+<K> - show documentation pop up	
 <gd> - definitions
 <gv> - type definitions
 <gi> - implementations
 <gr> - references
+<[g> and <]g> - navigate between diagnostics
+
+<leader><f> - format selected code
+<leader><qf> - auto fix
 <leader><aw> - wrap widget with… etc
 <leader><ac> - open action menu <leader><rn> - rename variable, method, class etc.
 <leader><rn> -> rename symbol
-<K> - show documentation pop up	
+
+<space><a> - open coc diagnostics
+<space><e> - open coc extensions
+<space><c> - open coc commands
+<space><o> - open coc outline
+<space><s> - open coc workspace symbols
+<space><j> - coc next item
+<space><k> - coc prev item
+<space><p> - resume latest coc list
+
 :CocOutline - show file outline
 :CocList - list of options to select from
 :CocSearch <phrase> - searches in all files for the <phrase>
 :CocCommand <command> - runs a Coc command ie. :CocCommand flutter.run -t lib/main.dart --flavor myflavor
 
-List of extensions: https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
-
-" Mappings for CoCList
-" Show all diagnostics.
-nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
-" Manage extensions.
-nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
-" Show commands.
-nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
-" Find symbol of current document.
-nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
-" Search workspace symbols.
-nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
-" Do default action for next item.
-nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
-" Do default action for previous item.
-nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
-" Resume latest coc list.
-nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
 :Fold - folds sections in file
 :Format - formats file
 :OR - organize imports
 
-<[g> and <]g> - to navigate diagnostics
+---
+
+List of extensions: https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 ```
 
 ## NERDTree
