@@ -297,3 +297,5 @@ https://github.com/mfussenegger/nvim-dap - apparently there is a way with flutte
 * icon previews 
 * autosave + autoformat in dart conflicting
 * IDE like search and replace in all files
+* proper debugging in nvim
+* moving files with impmorts updated properly
