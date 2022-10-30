@@ -1,23 +1,29 @@
-" Use tab for trigger completion with characters ahead and navigate.
-" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
-" other plugin before putting this into your onfig.
+" related to also: COC-snippets
 inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#pum#visible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ CheckBackSpace() ? "\<TAB>" :
       \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
-function! s:check_back_space() abort
+function! CheckBackSpace() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-" Use <c-space> to trigger completion.
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
+imap <tab> <Plug>(coc-snippets-expand)
+
+" also Ulti snips settings since related
+let g:UltiSnipsExpandTrigger = '<Nop>'
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:coc_snippet_next = '<TAB>'
+let g:coc_snippet_prev = '<S-TAB>'
+
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+" ENDOF: COC-snippets
+
+" Use <leader><space>  to trigger completion.
+inoremap <silent><expr> <leader><space> coc#refresh()
 
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
@@ -138,10 +144,6 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>c
 
 " MY EXTRA SETTINGS
 
-imap <tab> <Plug>(coc-snippets-expand)
-let g:UltiSnipsExpandTrigger = '<Nop>'
-let g:coc_snippet_next = '<TAB>'
-let g:coc_snippet_prev = '<S-TAB>'
 
 let g:coc_global_extensions = [
       \'coc-flutter', 
