@@ -20,9 +20,6 @@ let g:coc_snippet_prev = '<S-TAB>'
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 " ENDOF: COC-snippets
 
-" Use <leader><space>  to trigger completion.
-inoremap <silent><expr> <leader><space> coc#refresh()
-
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
