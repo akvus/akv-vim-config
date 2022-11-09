@@ -260,6 +260,7 @@ To work with single chars like , in [a,b,c] - go to visual mode and then <C-n>
 
 Commenting multiple lines:
 <C-v> - open visual mode, select lines, <I>,<jj>
+NOTE: at PowerShell use <C-q> instead since <C-v> is mapped to paste
 ```
 
 ## Surround
