@@ -25,6 +25,8 @@
 :h command - read help for a command
 :wa - save all open buffers
 
+<.>, :help . - repeats last action, and more
+
 ---
 
 https://www.maketecheasier.com/cheatsheet/vim-keyboard-shortcuts/ - more
