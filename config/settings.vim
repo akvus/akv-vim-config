@@ -1,10 +1,6 @@
 set number
 set noerrorbells
 set wrap
-filetype on
-filetype plugin on
-filetype indent on
-syntax on
 set cursorline
 set cursorcolumn
 " spaces instead of tabs
@@ -35,6 +31,8 @@ set nowritebackup
 set cmdheight=2
 set updatetime=300
 set shortmess+=c
+syntax on
+filetype plugin indent on
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " Spelling correction
