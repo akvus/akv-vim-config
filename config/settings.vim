@@ -4,7 +4,6 @@ set wrap
 set cursorline
 set cursorcolumn
 " spaces instead of tabs
-set expandtab
 set nohlsearch
 set smartcase
 set noswapfile
@@ -20,8 +19,9 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set nobackup
 set undofile
 set incsearch
+set expandtab
 set tabstop=2
-set softtabstop=0 noexpandtab
+set softtabstop=0
 set shiftwidth=2
 set clipboard
 set mouse=a
