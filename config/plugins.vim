@@ -7,6 +7,7 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Test runner
+" Consider: https://github.com/nvim-neotest/neotest#installation
 Plug 'vim-test/vim-test'
 
 " Snippets
@@ -40,7 +41,7 @@ Plug 'frazrepo/vim-rainbow'
 " Help with surrounding stuff
 Plug 'tpope/vim-surround'
 
-" NERDTree and related
+" File explorer
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
@@ -48,9 +49,11 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'justinmk/vim-sneak'
 
 " Fzf
+" Requires: bat for syntax highlighting (choco install bat)
+" Can also be installe for cmd (choco install fzf)
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Rg - integrates with Fzf to search in files
+" Rg - integrates with Fzf to search in files, needs to be isntalled on system
 Plug 'BurntSushi/ripgrep'
 
 " Multi cursor
@@ -61,6 +64,9 @@ Plug 'rhysd/vim-grammarous'
 
 " Icons
 Plug 'ryanoasis/vim-devicons'
+
+" Tree sitter
+Plug 'nvim-treesitter/nvim-treesitter'
 
 " Theme
 Plug 'morhetz/gruvbox'
