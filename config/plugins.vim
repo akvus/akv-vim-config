@@ -43,7 +43,6 @@ Plug 'tpope/vim-surround'
 " NERDTree and related
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Search by typing 2 chars
 Plug 'justinmk/vim-sneak'
