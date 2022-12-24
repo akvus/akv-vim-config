@@ -53,11 +53,6 @@ silent! map <F3> :NERDTreeFind<CR>
 let g:NERDTreeMapActivateNode="<F3>"
 let g:NERDTreeMapPreview="<F4>"
 
-" quit
-nmap <silent> <Leader>q :q<CR>
-nmap <silent> <Leader>Q :qa!<CR>
-nmap <silent> <Leader>x :x<CR>
-
 " copy to clipboard
 nmap <silent> <Leader>cc :w !pbcopy<CR>
 
@@ -67,3 +62,4 @@ nnoremap <C-Q> :q<cr>
 vnoremap <C-Q> <esc>:q<cr>
 nnoremap <Leader>q :q<cr>
 nnoremap <Leader>Q :qa!<cr>
+nmap <silent> <Leader>x :x<CR>
