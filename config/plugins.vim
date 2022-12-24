@@ -59,6 +59,9 @@ Plug 'mg979/vim-visual-multi'
 " Check gramma
 Plug 'rhysd/vim-grammarous'
 
+" Icons
+Plug 'ryanoasis/vim-devicons'
+
 " Theme
 Plug 'morhetz/gruvbox'
 autocmd vimenter * ++nested colorscheme gruvbox

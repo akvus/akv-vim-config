@@ -61,3 +61,9 @@ nmap <silent> <Leader>x :x<CR>
 " copy to clipboard
 nmap <silent> <Leader>cc :w !pbcopy<CR>
 
+" Quit
+inoremap <C-Q> <esc>:q<cr>
+nnoremap <C-Q> :q<cr>
+vnoremap <C-Q> <esc>:q<cr>
+nnoremap <Leader>q :q<cr>
+nnoremap <Leader>Q :qa!<cr>
