@@ -6,17 +6,19 @@ if has('win32')
    let $PATH = "C:\\Program Files\\Git\\usr\\bin;" . $PATH
 endif
 
-source $HOME/.config/nvim/config/mappings.vim
 source $HOME/.config/nvim/config/plugins.vim
+source $HOME/.config/nvim/config/mappings.vim
 source $HOME/.config/nvim/config/settings.vim
 
 source $HOME/.config/nvim/modules/vimrainbow.vim
-source $HOME/.config/nvim/modules/coc.vim
+source $HOME/.config/nvim/modules/cmpset.vim
 source $HOME/.config/nvim/modules/dart.vim
 source $HOME/.config/nvim/modules/fzf.vim
 source $HOME/.config/nvim/modules/nerdtree.vim
+source $HOME/.config/nvim/modules/fluttertools.vim
 source $HOME/.config/nvim/modules/signify.vim
 source $HOME/.config/nvim/modules/sneak.vim
 
-let g:UltiSnipsSnippetDirectories=['UltiSnips', $HOME.'/.config/nvim/ultisnips/dart.snippets', 'ultisnips']
 
+
+let g:UltiSnipsSnippetDirectories=['UltiSnips', $HOME.'/.config/nvim/ultisnips/dart.snippets', 'ultisnips']

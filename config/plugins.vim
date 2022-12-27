@@ -1,21 +1,34 @@
 call plug#begin()
 
-" Dart support
-Plug 'dart-lang/dart-vim-plugin'
+" lsp
+Plug 'neovim/nvim-lspconfig'
 
-" Text editing support
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" lua tools
+Plug 'nvim-lua/plenary.nvim'
+
+" Code completition
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+
+" snippets
+Plug 'SirVer/Ultisnips'
+Plug 'quangnguyen30192/cmp-nvim-ultisnips'
+Plug 'natebosch/dartlang-snippets'
+Plug 'honza/vim-snippets'
+
+" Dart/Flutter support
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'akinsho/flutter-tools.nvim'
+
+" Diagnostics for whole project
+Plug 'onsails/diaglist.nvim' 
 
 " Test runner
-" Consider: https://github.com/nvim-neotest/neotest#installation
+" Consider: https://github.com/nvim-neotest/neotest#installation, and vim-dap
 Plug 'vim-test/vim-test'
-
-" Snippets
-Plug 'SirVer/Ultisnips'
-Plug 'natebosch/dartlang-snippets'
-
-" General snippets - also relevant for Flutter
-Plug 'honza/vim-snippets'
 
 " Log coloring - SEE IF HELPFUL
 Plug 'mtdl9/vim-log-highlighting'

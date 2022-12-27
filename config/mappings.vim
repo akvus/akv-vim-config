@@ -19,22 +19,23 @@ nmap <C-P> :Files<CR>
 nmap <Leader>l :Lines<CR>
 nmap <Leader>h :History<CR>
 
-" Flutter Coc commands
-nmap <silent> <Leader>fpg :CocCommand flutter.pub.get<CR>
-nmap <silent> <Leader>fd :CocCommand flutter.devices<CR>
-nmap <silent> <Leader>fa :CocCommand flutter.run<CR>
-nmap <silent> <Leader>fq :CocCommand flutter.dev.quit<CR>
+" flutter-tools.nvim mappings
+nmap <silent> <Leader>fpg :FlutterPubGet<CR>
+nmap <silent> <Leader>fd :FlutterDevices<CR>
+nmap <silent> <Leader>fa :FlutterRun<CR>
+nmap <silent> <Leader>fq :FlutterQuit<CR>
+nmap <silent> <Leader>fQ :FlutterDetach<CR>
+nmap <silent> <Leader>fe :FlutterEmulators<CR>
+nmap <silent> <Leader>fo :FlutterOutlineToggle<CR>
 nmap <silent> <Leader>fl :CocCommand flutter.dev.openDevLog<CR>
-nmap <silent> <Leader>fcl :CocCommand flutter.dev.clearDevLog<CR>
-nmap <silent> <Leader>fr :CocCommand flutter.dev.hotReload<CR>
-nmap <silent> <Leader>fR :CocCommand flutter.dev.hotRestart<CR>
-nmap <silent> <Leader>ft :CocCommand flutter.dev.openDevToolsProfiler<CR>
-nmap <silent> <Leader>fp :CocCommand flutter.dev.openProfiler<CR>
-nmap <silent> <Leader>fpo :CocCommand flutter.dev.showPerformanceOverlay<CR>
-nmap <silent> <Leader>fio :CocCommand flutter.dev.showWidgetInspectorOverride<CR>
-nmap <silent> <Leader>fs :CocCommand flutter.dev.screenshot<CR>
-nmap <silent> <Leader>flr :CocCommand flutter.lsp.restart<CR>
-nmap <silent> <Leader>rcf :CocCommand workspace.renameCurrentFile<CR>
+nmap <silent> <Leader>fcl :FlutterLogClear<CR>
+nmap <silent> <Leader>fr :FlutterReload<CR>
+nmap <silent> <Leader>fR :FlutterRestart<CR>
+nmap <silent> <Leader>ft :FlutterDevTools<CR>
+nmap <silent> <Leader>fcpu :FlutterCopyProfilerUrl<CR>
+nmap <silent> <Leader>fvd :FlutterVisualDebug<CR>
+nmap <silent> <Leader>fs :ter flutter screenshot<CR>
+nmap <silent> <Leader>flr :FlutterLspRestart<CR>
 
 " Git
 nmap <silent> <Leader>gp :G push<CR>
@@ -57,9 +58,33 @@ let g:NERDTreeMapPreview="<F4>"
 nmap <silent> <Leader>cc :w !pbcopy<CR>
 
 " Quit
-inoremap <C-Q> <esc>:q<cr>
-nnoremap <C-Q> :q<cr>
-vnoremap <C-Q> <esc>:q<cr>
 nnoremap <Leader>q :q<cr>
 nnoremap <Leader>Q :qa!<cr>
 nmap <silent> <Leader>x :x<CR>
+
+" LSP
+nnoremap K <Cmd>lua vim.lsp.buf.hover()<CR>
+nnoremap gd <Cmd>lua vim.lsp.buf.definition()<CR>
+nnoremap gD <Cmd>lua vim.lsp.buf.declaration()<CR>
+nnoremap gr <Cmd>lua vim.lsp.buf.references()<CR>
+nnoremap gi <Cmd>lua vim.lsp.buf.implementation()<CR>
+nnoremap gf <Cmd>lua vim.lsp.buf.format()<CR>
+nnoremap g] <Cmd>lua vim.diagnostic.goto_prev()<CR>
+nnoremap g[ <Cmd>lua vim.diagnostic.goto_next()<CR>
+" Open code actions using the default lsp UI, if you want to change this please see the plugins above
+nnoremap <leader>ca <Cmd>lua vim.lsp.buf.code_action()<CR>
+" Open code actions for the selected visual range
+xnoremap <leader>ca <Cmd>lua vim.lsp.buf.range_code_action()<CR>
+
+nmap <space>a <cmd>lua require('diaglist').open_all_diagnostics()<cr>
+nmap <space>af <cmd>lua require('diaglist').open_buffer_diagnostics()<cr>
+
+lua << EOF
+local on_attach = function(client, bufnr)
+  -- Enable completion triggered by <c-x><c-o>
+  vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
+end
+EOF
+
+inoremap <silent><expr> <TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"

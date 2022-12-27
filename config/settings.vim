@@ -12,7 +12,6 @@ set showcmd
 set showmatch
 set hlsearch
 set history=500
-" auto completition on tab
 set wildmenu
 set wildmode=longest:full,full
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
@@ -31,6 +30,7 @@ set nowritebackup
 set cmdheight=2
 set updatetime=300
 set shortmess+=c
+set completeopt=menu,menuone,noselect
 syntax on
 filetype plugin indent on
 highlight ColorColumn ctermbg=0 guibg=lightgrey
