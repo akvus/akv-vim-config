@@ -2,12 +2,25 @@
 
 My VIM config
 
+### Extra set up
+
+1. Install fonts: FiraCode and set up at PowerShell, terminal etc. 
+1. Install FZF on terminal
+
 ### Unix (linux, macos etc)
 
 1. Install vim-plug https://github.com/junegunn/vim-plug
 1. Install nvim https://github.com/neovim/neovim
 1. Clone the config repo to `$HOME`
 1. Run nvim and `:PlugInstall`
+1. Set up windows profile, i.e. `Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+```
+function cdf {
+  Set-Location (Get-Item $(fzf)).Directory.FullName
+}
+
+Start-Service ssh-agent
+```
 
 ### Windows
 
