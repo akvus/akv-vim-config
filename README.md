@@ -1,6 +1,6 @@
 # akv-vim-config
 
-My VIM config
+Please note, I'm moving away from this configuration towards customized LunarVim config.
 
 ### Extra set up
 
